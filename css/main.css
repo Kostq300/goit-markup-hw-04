@@ -66,7 +66,7 @@ img {
   border-bottom: 1px solid #ececec;
 }
 
-nav{
+nav {
   margin-right: auto;
 }
 
@@ -110,12 +110,11 @@ nav{
   width: 294px;
 }
 
-.site-nav-link{
+.site-nav-link {
   display: inline-block;
   padding-top: 32px;
   padding-bottom: 32px;
 }
-
 
 .site-nav-link:hover,
 .site-nav-link:focus {
@@ -158,7 +157,6 @@ nav{
   color: var(--accent-color);
 }
 
-
 /* Main */
 
 .hero {
@@ -166,6 +164,15 @@ nav{
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(/image/hero/back-hero.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .hero-title {
@@ -217,7 +224,7 @@ nav{
   margin: 0;
 }
 
-.benefits-list{
+.benefits-list {
   padding-bottom: 0;
 }
 
@@ -245,8 +252,14 @@ nav{
   width: 270px;
 }
 
-.list-ben-item:not(:last-child){
-    margin-right: 30px;
+.list-ben-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.icon-section{
+  height: 120px;
+  background-color: #F5F4FA;
+  margin-bottom: 30px;
 }
 
 .main-title {
@@ -298,7 +311,7 @@ nav{
 .dimianenko,
 .repina,
 .tarasov,
-.ermakov{
+.ermakov {
   padding-top: 30px;
   padding-bottom: 30px;
 }
