@@ -397,7 +397,7 @@ nav {
 
 .client-link:hover,
 .client-link:focus{
-  border-color: (--accent-color);
+  border-color: var(--accent-color);
 }
 
 .client-link{
